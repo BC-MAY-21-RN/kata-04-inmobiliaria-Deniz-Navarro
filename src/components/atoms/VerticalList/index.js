@@ -1,11 +1,16 @@
 import React from 'react';
 import {FlatList} from 'react-native';
 import ItemList from '../ItemList';
+import ListStyles from './ListStyles';
 
 const VerticalList = props => {
   const {data} = props;
   return (
-    <FlatList data={data} renderItem={({item}) => <ItemList item={item} />} />
+    <FlatList
+      data={data}
+      style={ListStyles.container}
+      renderItem={({item}) => <ItemList item={item} />}
+    />
   );
 };
 
