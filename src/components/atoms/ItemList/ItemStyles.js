@@ -13,30 +13,46 @@ const ItemStyles = StyleSheet.create({
     width: 230,
   },
   image: {
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
     borderRadius: 10,
+    marginTop: 5,
     marginRight: 10,
   },
   title: {
     fontSize: 16,
-    marginBottom: 5,
+    marginBottom: 2,
     fontWeight: 'bold',
     color: 'black',
   },
   row: {
     flexDirection: 'row',
     justifyContent: 'space-around',
+    marginBottom: 2,
   },
   row2: {
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
+  row3: {
+    flexDirection: 'row',
+    marginBottom: 2,
+  },
   calificacion: {
     position: 'absolute',
-    backgroundColor: 'yellow',
-    width: 40,
-    justifyContent: 'center',
+    backgroundColor: '#FFF4AF',
+    width: 45,
+    height: 25,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    borderRadius: 10,
+    padding: 5,
+    bottom: 10,
+    alignSelf: 'center',
+  },
+  text: {
+    color: 'black',
+    fontWeight: 'bold',
   },
 });
 

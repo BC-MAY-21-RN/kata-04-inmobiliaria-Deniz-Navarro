@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 
 const ListStyles = StyleSheet.create({
   container: {
-    margin: 20,
+    margin: 15,
     padding: 10,
   },
 });
